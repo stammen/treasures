@@ -1642,7 +1642,7 @@ require.register("pomelonode-pomelo-jsclient-websocket/lib/pomelo-client.js", fu
   var handshakeInit = function(data){
     if(data.sys && data.sys.heartbeat) {
       heartbeatInterval = data.sys.heartbeat;       // heartbeat interval
-      heartbeatTimeout = heartbeatInterval * 2;     // max heartbeat timeout
+      //heartbeatTimeout = heartbeatInterval * 100;     // max heartbeat timeout
     }
 
     initData(data);
