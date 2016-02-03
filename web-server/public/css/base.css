@@ -30,12 +30,12 @@ body {
   padding: 10px;
   width: 333px;
   height: 100px;
-  margin: 150px auto 0;
+  margin: 100px auto 0;
 }
 
 #login h1{
   text-align: center;
-  margin-top: 85px;
+  margin-top: 40px;
   font-family: 'Comic Sans MS', cursive;
   line-height: 1em;
   letter-spacing: 5px;
